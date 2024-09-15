@@ -1,0 +1,635 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32406 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/ov333/OneDrive/Documents/Unityprojects/version_2022.3.0f1/Lab3vectororbit
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+64971
+Successfully changed project path to: C:/Users/ov333/OneDrive/Documents/Unityprojects/version_2022.3.0f1/Lab3vectororbit
+C:/Users/ov333/OneDrive/Documents/Unityprojects/version_2022.3.0f1/Lab3vectororbit
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26036] Host "[IP] 10.40.125.115 [Port] 0 [Flags] 2 [Guid] 1922626789 [EditorId] 1922626789 [Version] 1048832 [Id] WindowsEditor(7,ovi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26036] Host "[IP] 10.40.125.115 [Port] 0 [Flags] 2 [Guid] 1922626789 [EditorId] 1922626789 [Version] 1048832 [Id] WindowsEditor(7,ovi) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ov333/OneDrive/Documents/Unityprojects/version_2022.3.0f1/Lab3vectororbit/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27e0)
+    Vendor:   NVIDIA
+    VRAM:     11997 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003143 seconds.
+- Loaded All Assemblies, in  0.202 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.176 seconds
+Domain Reload Profiling: 377ms
+	BeginReloadAssembly (50ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (49ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (176ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (136ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ov333\OneDrive\Documents\Unityprojects\version_2022.3.0f1\Lab3vectororbit\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ov333\OneDrive\Documents\Unityprojects\version_2022.3.0f1\Lab3vectororbit\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.471 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.388 seconds
+Domain Reload Profiling: 858ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (388ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3553.
+Memory consumption went from 117.5 MB to 117.5 MB.
+Total: 6.137100 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.076900 ms MarkObjects: 5.768800 ms  DeleteObjects: 0.101800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58113.461170 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Idle/Right/Idle.anim
+  artifactKey: Guid(50d5424ce2e14a5438e3086c35e6010d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Idle/Right/Idle.anim using Guid(50d5424ce2e14a5438e3086c35e6010d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '197aed84c20de9275c744401a03264e9') in 0.078238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Death/Top/Death.anim
+  artifactKey: Guid(112deee05393ee84192e2dcdc3fc2317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Death/Top/Death.anim using Guid(112deee05393ee84192e2dcdc3fc2317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '042708c33419aa9e37254db660ff5cb2') in 0.005219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/AnimationEventsHandler.cs
+  artifactKey: Guid(d3db72469e1e07b459f19a4646062131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AnimationEventsHandler.cs using Guid(d3db72469e1e07b459f19a4646062131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51cd94b02a5584e22b8bab0f714e6644') in 0.005277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Attack/Left/Attack.anim
+  artifactKey: Guid(87901c9061bb79f48a70054917bf2ef7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Attack/Left/Attack.anim using Guid(87901c9061bb79f48a70054917bf2ef7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0dacc8d280d221e22a0b2a9ce358ea88') in 0.006466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Run/Top/Run.anim
+  artifactKey: Guid(7c61d1ebb52e85f4ca7df35d16aaa7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Run/Top/Run.anim using Guid(7c61d1ebb52e85f4ca7df35d16aaa7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c1631e565b59364b6d6c500bbfbe4f2') in 0.003072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/GetHit/Left/GetHit.anim
+  artifactKey: Guid(f923d2856460d864483c5a8e25af2578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/GetHit/Left/GetHit.anim using Guid(f923d2856460d864483c5a8e25af2578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2552735f0b94f2da52f3141975709466') in 0.005354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Run/Left/Run.anim
+  artifactKey: Guid(5b54f2812c76fc74e80216cbb3d74a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Run/Left/Run.anim using Guid(5b54f2812c76fc74e80216cbb3d74a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f113dde7db6ab6c1e6d60e0315870e77') in 0.004240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/GetHit/RightBot/GetHit.anim
+  artifactKey: Guid(7c583d859481cf642a97e31ab0f0103f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/GetHit/RightBot/GetHit.anim using Guid(7c583d859481cf642a97e31ab0f0103f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec531d5f4ca2f34953301e9957d7cbf8') in 0.003614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/player.prefab
+  artifactKey: Guid(3e3cfc97851c17943873cd8a5831d083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/player.prefab using Guid(3e3cfc97851c17943873cd8a5831d083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0416f4ef4b587d86e75ce2068483b2bd') in 0.009857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Walk/Bot/Walk.anim
+  artifactKey: Guid(13d5a2326cc4d884f8e42d19245ebd4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Walk/Bot/Walk.anim using Guid(13d5a2326cc4d884f8e42d19245ebd4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '521bc832c46520460782330c4c16659d') in 0.004309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/CommonSoldier.controller
+  artifactKey: Guid(a08fc71a87fe29047b93017ed22c5817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/CommonSoldier.controller using Guid(a08fc71a87fe29047b93017ed22c5817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bade1b7c7e6630ab57489806c9e37fc7') in 0.049489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Attack/LeftBot/Attack.anim
+  artifactKey: Guid(db87beca6751ee74d9775b8b05c4d564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Attack/LeftBot/Attack.anim using Guid(db87beca6751ee74d9775b8b05c4d564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58b6eeb06506b842bcc0b6f7f0767499') in 0.004994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Walk/LeftTop/Walk.anim
+  artifactKey: Guid(07525d8a4aaefb74d989b65d178f79f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Walk/LeftTop/Walk.anim using Guid(07525d8a4aaefb74d989b65d178f79f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca723a5430a9617c4dbe88a0d3190a86') in 0.004018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Death/Bot/Death.anim
+  artifactKey: Guid(b97e13469c392b34ea325e03c3a6054c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Death/Bot/Death.anim using Guid(b97e13469c392b34ea325e03c3a6054c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c4a8ec3eecbc47b8d50a79ef194e918') in 0.003888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Stunned/Left/Stunned.anim
+  artifactKey: Guid(21a3a63774c0fba4ea6d2902519832b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Animations/Stunned/Left/Stunned.anim using Guid(21a3a63774c0fba4ea6d2902519832b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5164a97065e8e61fa466da0b06335b43') in 0.005397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Attack/RightTop/Attack.png
+  artifactKey: Guid(6459e6af2d31cb94ea8c2396faa0d6de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Attack/RightTop/Attack.png using Guid(6459e6af2d31cb94ea8c2396faa0d6de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9232aad9ed6d178c806744835d65f98') in 0.035434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.189147 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Attack/RightTop/Attack_normal.png
+  artifactKey: Guid(901c076a0a2603946b05a4f447307547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Attack/RightTop/Attack_normal.png using Guid(901c076a0a2603946b05a4f447307547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6a93849db03b76649c536af65af0374') in 0.009174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Death/LeftBot/Death_normal.png
+  artifactKey: Guid(85293d4a7403af242aa876f8030dbea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Death/LeftBot/Death_normal.png using Guid(85293d4a7403af242aa876f8030dbea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99baa81191d45deafb16ae19acba595a') in 0.018699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/GetHit/Right/GetHit.png
+  artifactKey: Guid(df1db17bfd06ea144b23fe06f6d2a857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/GetHit/Right/GetHit.png using Guid(df1db17bfd06ea144b23fe06f6d2a857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b668376bafe0ec423fe04d505b9f864') in 0.013541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Death/Bot/Death.png
+  artifactKey: Guid(191fe2a75632c0f47a1d3b3277c96387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Death/Bot/Death.png using Guid(191fe2a75632c0f47a1d3b3277c96387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0b1304f6a2215278be6409a69745e6a') in 0.019377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/RightTop/Boost.png
+  artifactKey: Guid(59756cf0ebdf4cb4dbf384949ba2e7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/RightTop/Boost.png using Guid(59756cf0ebdf4cb4dbf384949ba2e7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '828faac991ff18772441a0072f9d6406') in 0.024434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/Bot/Boost.png
+  artifactKey: Guid(f539801784ab9e1498a6a9390b4a54e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/Bot/Boost.png using Guid(f539801784ab9e1498a6a9390b4a54e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d9f95413e7f26c05182cdaa20920bcb') in 0.026584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Run/Bot/Run_normal.png
+  artifactKey: Guid(8bc2dc6d0dde2044597c81c13d458a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Run/Bot/Run_normal.png using Guid(8bc2dc6d0dde2044597c81c13d458a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5d92430a5cdafa4eca6bab5041c3fd4') in 0.008176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/RightBot/Boost_normal.png
+  artifactKey: Guid(d0cb7d6f8b91a034b9234d5304450041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/RightBot/Boost_normal.png using Guid(d0cb7d6f8b91a034b9234d5304450041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbb324a97f7a13616ccac96f3ba3c969') in 0.010528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Idle/Right/Idle_normal.png
+  artifactKey: Guid(5f8d5b3de5f531d4f98df667f968a59b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Idle/Right/Idle_normal.png using Guid(5f8d5b3de5f531d4f98df667f968a59b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1b67c5c70d004afc493c5d2e7e9543a') in 0.008919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/GetHit/LeftBot/GetHit_normal.png
+  artifactKey: Guid(8753abe3ffd5b644d831317bfea8b3e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/GetHit/LeftBot/GetHit_normal.png using Guid(8753abe3ffd5b644d831317bfea8b3e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f3ffc1b3d137aafdf76fa83a34babfc') in 0.011675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/Right/Boost.png
+  artifactKey: Guid(cfae3a55121a6e745b2e19cc23b62ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/Right/Boost.png using Guid(cfae3a55121a6e745b2e19cc23b62ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf9bc1a9dca6d599c5bae3c8441424c3') in 0.024250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/RightBot/Boost.png
+  artifactKey: Guid(eb7c170baf859974f8e7bd8a2f18a3f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Boost/RightBot/Boost.png using Guid(eb7c170baf859974f8e7bd8a2f18a3f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a914cd66924f7c920f256b680277820d') in 0.023925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.306685 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Stunned/Bot/Stunned_normal.png
+  artifactKey: Guid(cd54e4dae030a044ead9145d97f9471b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Stunned/Bot/Stunned_normal.png using Guid(cd54e4dae030a044ead9145d97f9471b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '149d1406d94d27876ba7ccfb9b47b857') in 0.008939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Walk/Bot/Walk.png
+  artifactKey: Guid(6157e4d362ed761459610412072e7122) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Walk/Bot/Walk.png using Guid(6157e4d362ed761459610412072e7122) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e42b552837ac0797ce270ab5c75ab11') in 0.020732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Walk/RightBot/Walk_normal.png
+  artifactKey: Guid(5466578c815b17840a989aa1b940cc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Walk/RightBot/Walk_normal.png using Guid(5466578c815b17840a989aa1b940cc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '629ef34c915e7e77bbcb93680d4c1102') in 0.007596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Walk/LeftBot/Walk.png
+  artifactKey: Guid(3b8407f499b11964f8f93b970a7c2f6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PixelArtStudio/SkeletonsPack/CommonSoldier/Textures/Walk/LeftBot/Walk.png using Guid(3b8407f499b11964f8f93b970a7c2f6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d7bb27dd533a6abae1b1efc64fe25d1') in 0.016649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 22.078434 seconds.
+  path: Assets/fireskull.prefab
+  artifactKey: Guid(0780ac1873a88404a8ecba864f59feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fireskull.prefab using Guid(0780ac1873a88404a8ecba864f59feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f160f5d177b51bf0a102863cc5e2588c') in 0.065186 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.128941 seconds.
+  path: Assets/EnemyTracking.cs
+  artifactKey: Guid(a7257b200e78e714185441c2a3b23d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyTracking.cs using Guid(a7257b200e78e714185441c2a3b23d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d549aab46f07bcb3391d0b729c5ed9') in 0.000570 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3562.
+Memory consumption went from 73.4 MB to 73.4 MB.
+Total: 3.893300 ms (FindLiveObjects: 0.205900 ms CreateObjectMapping: 0.097900 ms MarkObjects: 3.566400 ms  DeleteObjects: 0.022000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ov333\OneDrive\Documents\Unityprojects\version_2022.3.0f1\Lab3vectororbit\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ov333\OneDrive\Documents\Unityprojects\version_2022.3.0f1\Lab3vectororbit\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.485 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 978ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (495ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (270ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3564.
+Memory consumption went from 121.3 MB to 121.3 MB.
+Total: 4.380600 ms (FindLiveObjects: 0.173000 ms CreateObjectMapping: 0.050400 ms MarkObjects: 4.103800 ms  DeleteObjects: 0.052400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ov333\OneDrive\Documents\Unityprojects\version_2022.3.0f1\Lab3vectororbit\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ov333\OneDrive\Documents\Unityprojects\version_2022.3.0f1\Lab3vectororbit\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.635 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling: 1483ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (280ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (849ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (474ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.8 KB). Loaded Objects now: 3567.
+Memory consumption went from 121.3 MB to 121.3 MB.
+Total: 3.831300 ms (FindLiveObjects: 0.255000 ms CreateObjectMapping: 0.058500 ms MarkObjects: 3.456500 ms  DeleteObjects: 0.060400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
