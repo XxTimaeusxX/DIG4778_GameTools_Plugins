@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ov333\\source\\repos\\Zork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9520FE2-685F-4B67-A9A0-84ABB462F921}|Zork.csproj|c:\\users\\ov333\\source\\repos\\zork\\scripts\\hello.csx||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9520FE2-685F-4B67-A9A0-84ABB462F921}|Zork.csproj|solutionrelative:scripts\\hello.csx||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9520FE2-685F-4B67-A9A0-84ABB462F921}|Zork.csproj|c:\\users\\ov333\\source\\repos\\zork\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9520FE2-685F-4B67-A9A0-84ABB462F921}|Zork.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\ov333\\source\\repos\\Zork\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "C:\\Users\\ov333\\source\\repos\\Zork\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T08:10:31.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hello.csx",
+              "DocumentMoniker": "C:\\Users\\ov333\\source\\repos\\Zork\\Scripts\\Hello.csx",
+              "RelativeDocumentMoniker": "Scripts\\Hello.csx",
+              "ToolTip": "C:\\Users\\ov333\\source\\repos\\Zork\\Scripts\\Hello.csx",
+              "RelativeToolTip": "Scripts\\Hello.csx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-06T08:10:00.308Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
