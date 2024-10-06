@@ -53,9 +53,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Navigation.Updater
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Settings.Editor", "Unity.Settings.Editor.csproj", "{AF712978-DBB8-EAB2-B759-6F9B7A3B9926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.EditorCoroutines.Editor", "Unity.EditorCoroutines.Editor.csproj", "{B1E1DB05-AB2B-6694-42CA-92F458714953}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2F74FD2D-E79B-CA9D-F591-E2D164343030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.EditorCoroutines.Editor", "Unity.EditorCoroutines.Editor.csproj", "{B1E1DB05-AB2B-6694-42CA-92F458714953}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Shared.Editor", "Unity.VisualScripting.Shared.Editor.csproj", "{935522AF-0836-0A60-7B07-FD140D3D50AF}"
 EndProject
@@ -171,14 +171,14 @@ Global
 		{AF712978-DBB8-EAB2-B759-6F9B7A3B9926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF712978-DBB8-EAB2-B759-6F9B7A3B9926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF712978-DBB8-EAB2-B759-6F9B7A3B9926}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1E1DB05-AB2B-6694-42CA-92F458714953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1E1DB05-AB2B-6694-42CA-92F458714953}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1E1DB05-AB2B-6694-42CA-92F458714953}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1E1DB05-AB2B-6694-42CA-92F458714953}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2F74FD2D-E79B-CA9D-F591-E2D164343030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2F74FD2D-E79B-CA9D-F591-E2D164343030}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F74FD2D-E79B-CA9D-F591-E2D164343030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F74FD2D-E79B-CA9D-F591-E2D164343030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E1DB05-AB2B-6694-42CA-92F458714953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E1DB05-AB2B-6694-42CA-92F458714953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E1DB05-AB2B-6694-42CA-92F458714953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E1DB05-AB2B-6694-42CA-92F458714953}.Release|Any CPU.Build.0 = Release|Any CPU
 		{935522AF-0836-0A60-7B07-FD140D3D50AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{935522AF-0836-0A60-7B07-FD140D3D50AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{935522AF-0836-0A60-7B07-FD140D3D50AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
