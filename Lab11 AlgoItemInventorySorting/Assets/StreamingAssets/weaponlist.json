@@ -1,0 +1,14 @@
+{
+  "weapons": [
+    "Firesword", "Icebow", "Thunderhammer", "Shadowdagger", "Earthstaff",
+    "Lightningaxe", "Moonblade", "Sunshield", "Stormwand", "Windscythe",
+    "Flamewhip", "Frostlance", "Thunderclaw", "Obsidianblade", "Galehammer",
+    "Infernoaxe", "Tidalstaff", "Abyssalblade", "Solarflare", "Celestialbow",
+    "Spectralstaff", "Witch'sbreath", "Dragonfang", "Shadowstrike", "Moonstone",
+    "Cinderblade", "Ravenshadow", "Starlance", "Magmaaxe", "Aetherstaff",
+    "Blightwhip", "Vortexblade", "Eclipsehammer", "Firebloom", "Frostbite",
+    "Thunderstrike", "Wildfang", "Voidstaff", "Darkwind", "Shadowscythe",
+    "Dragonclaw", "Stormshard", "Ashenblade", "Oblivionaxe", "Skystrike",
+    "Solarblade", "Magmabow", "Frosthammer", "Infernoscythe", "Tempestlance"
+  ]
+}
