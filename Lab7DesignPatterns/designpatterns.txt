@@ -12,7 +12,7 @@ public class StoreBranch {
 Patterns used: Prototype Pattern
 Usage justification: The Prototype pattern is utilized to enable the creation of new StoreBranch instances by cloning existing ones. This method allows for efficient object creation when similar objects are needed, reducing the need for repetitive initialization code and simplifying the management of object properties.
 
-code segment:
+code segment: cwm
 patterns used:
 Usage justification:
 
