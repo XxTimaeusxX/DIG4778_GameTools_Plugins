@@ -60,10 +60,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\WeatherData.cs" />
-    <Compile Include="Assets\CityDropdownHandler.cs" />
-    <Compile Include="Assets\WeatherController.cs" />
-    <Compile Include="Assets\WeatherManager.cs" />
+    <Compile Include="Assets\Scripts\Weather\WeatherController.cs" />
+    <Compile Include="Assets\Scripts\Http request\Billboard.cs" />
+    <Compile Include="Assets\Scripts\Weather\WeatherManager.cs" />
+    <Compile Include="Assets\Scripts\Weather\CityDropdownHandler.cs" />
+    <Compile Include="Assets\Scripts\Weather\WeatherData.cs" />
+    <Compile Include="Assets\Scripts\Http request\ImageLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

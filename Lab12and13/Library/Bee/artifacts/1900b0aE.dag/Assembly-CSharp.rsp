@@ -352,10 +352,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/CityDropdownHandler.cs"
-"Assets/WeatherController.cs"
-"Assets/WeatherData.cs"
-"Assets/WeatherManager.cs"
+"Assets/Scripts/Http request/Billboard.cs"
+"Assets/Scripts/Http request/ImageLoader.cs"
+"Assets/Scripts/Weather/CityDropdownHandler.cs"
+"Assets/Scripts/Weather/WeatherController.cs"
+"Assets/Scripts/Weather/WeatherData.cs"
+"Assets/Scripts/Weather/WeatherManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
