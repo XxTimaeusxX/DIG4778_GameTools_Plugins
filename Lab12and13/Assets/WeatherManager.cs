@@ -7,11 +7,12 @@ using UnityEngine.Networking;
 public class WeatherManager
 {
     // Define the API endpoint URL, remember to replace "APIKEY" with your actual OpenWeatherMap API key
-    private const string xmlApi = "https://api.openweathermap.org/data/2.5/weather?q=Orlando,us&mode=xml&appid=843876d8822b51aaad5173bf1e088795";
+    private const string xmlApi = "https://api.openweathermap.org/data/2.5/weather?&mode=xml&appid=843876d8822b51aaad5173bf1e088795";
 
     // Private coroutine to handle the API request
-    private IEnumerator CallAPI(string url, Action<WeatherData> callback)
+    private IEnumerator CallAPI(string city, Action<WeatherData> callback)
     {
+        string url = $"{xmlApi}&q={city},us";
         // Start a Unity web request to get data from the API
         using (UnityWebRequest request = UnityWebRequest.Get(url))
         {
@@ -39,10 +40,10 @@ public class WeatherManager
     }
 
     // Public method that you can call to start fetching weather data
-    public IEnumerator GetWeatherXML(Action<WeatherData> callback)
+    public IEnumerator GetWeatherXML(string city, Action<WeatherData> callback)
     {
         // Simply call the internal CallAPI coroutine and return it
-        return CallAPI(xmlApi, callback);
+        return CallAPI(city, callback);
     }
 
     // Parse the weather data XML and return a WeatherData object
@@ -61,8 +62,8 @@ public class WeatherManager
 
             // Parse temperature (in Kelvin, convert to Celsius or Fahrenheit)
             XmlNode tempNode = xmlDoc.SelectSingleNode("current/temperature");
-            weatherData.Temperature = float.Parse(tempNode.Attributes["value"]?.Value ?? "0") - 273.15f; // Convert from Kelvin to Celsius
-
+            float kelvin = float.Parse(tempNode.Attributes["value"]?.Value ?? "0");
+            weatherData.Temperature = Mathf.RoundToInt((kelvin- 273.15f) * 9 / 5 +32);
             // Parse weather description
             XmlNode weatherNode = xmlDoc.SelectSingleNode("current/weather");
             weatherData.WeatherDescription = weatherNode.Attributes["value"]?.Value;
@@ -84,7 +85,14 @@ public class WeatherManager
 
             // Parse timezone offset (in seconds)
             XmlNode timezoneNode = xmlDoc.SelectSingleNode("current/city/timezone");
-            weatherData.Timezone = timezoneNode?.InnerText;
+            weatherData.Timezone = int.Parse(timezoneNode.InnerText);
+            TimeSpan timezoneOffset = TimeSpan.FromSeconds(weatherData.Timezone);
+
+            // adjusting parse sunset/sunrise with <Time zone>
+            weatherData.Sunrise = weatherData.Sunrise.Add(timezoneOffset);
+            weatherData.Sunset = weatherData.Sunset.Add(timezoneOffset);
+            weatherData.LastUpdate = weatherData.LastUpdate.Add(timezoneOffset);
+ 
 
             return weatherData;
 

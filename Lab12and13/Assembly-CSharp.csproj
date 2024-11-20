@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\WeatherData.cs" />
+    <Compile Include="Assets\CityDropdownHandler.cs" />
     <Compile Include="Assets\WeatherController.cs" />
     <Compile Include="Assets\WeatherManager.cs" />
   </ItemGroup>
