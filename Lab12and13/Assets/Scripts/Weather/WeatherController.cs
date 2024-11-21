@@ -52,7 +52,7 @@ public class WeatherController : MonoBehaviour
         DateTime localTime = DateTime.UtcNow.Add(TimeSpan.FromSeconds(weatherData.Timezone));
         DateTime morning = weatherData.Sunrise.AddMinutes(-30); // 30 minutes before sunrise
         DateTime afternoon = weatherData.Sunrise.AddMinutes(5 * 60); // 6 hours after sunrise
-        DateTime evening = weatherData.Sunset.AddMinutes(-60); // 1 hour before sunset
+        DateTime evening = weatherData.Sunset.AddMinutes(-40); // 1 hour before sunset
         DateTime night = weatherData.Sunset.AddMinutes(60); // 1 hour after sunset
 
         // Check the time of day

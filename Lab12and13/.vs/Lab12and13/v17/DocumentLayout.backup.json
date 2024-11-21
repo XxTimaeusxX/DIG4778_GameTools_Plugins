@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|c:\\users\\ov333\\onedrive\\documents\\unityprojects\\version_2022.3.37f1\\lab12and13\\assets\\scripts\\http request\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\http request\\billboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\assets\\scripts\\playfab\\login\\devicelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfab\\login\\devicelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|c:\\users\\ov333\\onedrive\\documents\\unityprojects\\version_2022.3.37f1\\lab12and13\\assets\\scripts\\http request\\imageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\http request\\imageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\assets\\scripts\\playfab\\login\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfab\\login\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|c:\\users\\ov333\\onedrive\\documents\\unityprojects\\version_2022.3.37f1\\lab12and13\\assets\\scripts\\playfab\\login\\playfabmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfab\\login\\playfabmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\assets\\scripts\\playfab\\login\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfab\\login\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Billboard.cs",
-              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Http request\\Billboard.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Http request\\Billboard.cs",
-              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Http request\\Billboard.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Http request\\Billboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ILogin.cs",
+              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\ILogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Playfab\\Login\\ILogin.cs",
+              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\ILogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Playfab\\Login\\ILogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T09:09:06.357Z",
+              "WhenOpened": "2024-11-21T08:02:05.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ImageLoader.cs",
-              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Http request\\ImageLoader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Http request\\ImageLoader.cs",
-              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Http request\\ImageLoader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Http request\\ImageLoader.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCsAAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DeviceLogin.cs",
+              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\DeviceLogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Playfab\\Login\\DeviceLogin.cs",
+              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\DeviceLogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Playfab\\Login\\DeviceLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T09:07:59.27Z",
+              "WhenOpened": "2024-11-21T08:01:59.671Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayfabManager.cs",
+              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\PlayfabManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Playfab\\Login\\PlayfabManager.cs",
+              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\PlayfabManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Playfab\\Login\\PlayfabManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T07:55:16.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginManager.cs",
+              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\LoginManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Playfab\\Login\\LoginManager.cs",
+              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\LoginManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Playfab\\Login\\LoginManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T07:49:41.485Z"
             }
           ]
         }

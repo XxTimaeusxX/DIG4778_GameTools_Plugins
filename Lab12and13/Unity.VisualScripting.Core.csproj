@@ -130,8 +130,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\EditorBinding\DisableAnnotationAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Listeners\MonoBehaviour\UnityOnCollisionExitMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\RenamedFromAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\Unity\Rect_DirectConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Operators\GreaterThanOrEqualHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Dependencies\FullSerializer\Converters\Unity\Rect_DirectConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\EditorBinding\Inspector\InspectorAdaptiveWidthAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Listeners\UnityMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Platforms\PlatformUtility.cs" />
@@ -279,8 +279,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Serialization\Converters\UnityObjectConverter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Variables\SavedVariables.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Cloning\ICloner.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Listeners\UI\UnityOnScrollRectValueChangedMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Utilities\StringUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Listeners\UI\UnityOnScrollRectValueChangedMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Collections\WatchedList.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Optimization\ReflectionPropertyAccessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\TypesMatching.cs" />
@@ -332,8 +332,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Listeners\UI\UnityOnButtonClickMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Optimization\InstanceActionInvoker_3.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Ensure\ExceptionMessages.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Operators\OperatorHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Optimization\StaticFunctionInvoker_1.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Operators\OperatorHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Cloning\Cloners\DictionaryCloner.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\Operators\BinaryOperator.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Core\Reflection\IAttributeProvider.cs" />
