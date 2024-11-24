@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using GameAnalyticsSDK;
 
 public class CityDropdownHandler : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class CityDropdownHandler : MonoBehaviour
 
     void Start()
     {
+        GameAnalytics.Initialize();
         // Ensure the Dropdown is not null
         if (cityDropdown != null)
         {
@@ -56,9 +58,8 @@ public class CityDropdownHandler : MonoBehaviour
         Debug.Log("Selected City: " + selectedCity);
         weatherController.UpdateWeatherForCity(selectedCity);
         weatherInfoText.text = "Loading weather for: " + selectedCity;
-
-
     }
+  
     public void OnWeatherDataLoaded(WeatherData weatherData)
     {
         DateTime currentTime = DateTime.UtcNow.Add(TimeSpan.FromSeconds(weatherData.Timezone));
@@ -72,6 +73,18 @@ public class CityDropdownHandler : MonoBehaviour
                                    $"Sunrise: {weatherData.Sunrise.ToString("hh:mm tt")}\n" +
                                    $"Sunset: {weatherData.Sunset.ToString("hh:mm tt")}\n" +
                                    $"Current Time: {currentTime}";
+            string eventDescription = $"Location: {weatherData.Location}\n" +
+                                     $"Temperature: {weatherData.Temperature}°F\n" +
+                                     $"Weather: {weatherData.WeatherDescription}\n" +
+                                     $"Wind Speed: {weatherData.WindSpeed} m/s\n" +
+                                     $"Sunrise: {weatherData.Sunrise.ToString("hh:mm tt")}\n" +
+                                     $"Sunset: {weatherData.Sunset.ToString("hh:mm tt")}\n" +
+                                     $"Current Time: {currentTime.ToString("hh:mm tt")}";
+
+            // Log the custom event to GameAnalytics
+           // GameAnalytics.WeatherEvent("WeatherAction", $"{eventDescription}");
+            GameAnalytics.NewDesignEvent("WeatherAction");
+            Debug.Log($"Weather Action Event Sent: {eventDescription}");
         }
         else
         {

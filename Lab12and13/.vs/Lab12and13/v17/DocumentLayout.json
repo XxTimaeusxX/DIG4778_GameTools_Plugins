@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\assets\\scripts\\playfab\\login\\devicelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfab\\login\\devicelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\assets\\gameanalytics\\plugins\\scripts\\gameanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\gameanalytics\\plugins\\scripts\\gameanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\assets\\scripts\\playfab\\login\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfab\\login\\ilogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|c:\\users\\ov333\\onedrive\\documents\\unityprojects\\version_2022.3.37f1\\lab12and13\\assets\\scripts\\playfab\\login\\playfabmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfab\\login\\playfabmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\assets\\scripts\\playfab\\login\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfab\\login\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|c:\\users\\ov333\\onedrive\\documents\\unityprojects\\version_2022.3.37f1\\lab12and13\\assets\\scripts\\weather\\citydropdownhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weather\\citydropdownhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ILogin.cs",
-              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\ILogin.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Playfab\\Login\\ILogin.cs",
-              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\ILogin.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Playfab\\Login\\ILogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:02:05.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DeviceLogin.cs",
-              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\DeviceLogin.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Playfab\\Login\\DeviceLogin.cs",
-              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\DeviceLogin.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Playfab\\Login\\DeviceLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "GameAnalytics.cs",
+              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\GameAnalytics\\Plugins\\Scripts\\GameAnalytics.cs",
+              "RelativeDocumentMoniker": "Assets\\GameAnalytics\\Plugins\\Scripts\\GameAnalytics.cs",
+              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\GameAnalytics\\Plugins\\Scripts\\GameAnalytics.cs",
+              "RelativeToolTip": "Assets\\GameAnalytics\\Plugins\\Scripts\\GameAnalytics.cs",
+              "ViewState": "AgIAANcBAAAAAAAAAAAqwMYBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T08:01:59.671Z",
+              "WhenOpened": "2024-11-24T11:41:59.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayfabManager.cs",
-              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\PlayfabManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Playfab\\Login\\PlayfabManager.cs",
-              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\PlayfabManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Playfab\\Login\\PlayfabManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBoAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CityDropdownHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Weather\\CityDropdownHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weather\\CityDropdownHandler.cs",
+              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Weather\\CityDropdownHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weather\\CityDropdownHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wFQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T07:55:16.45Z",
+              "WhenOpened": "2024-11-24T10:52:04.835Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginManager.cs",
-              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\LoginManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Playfab\\Login\\LoginManager.cs",
-              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Playfab\\Login\\LoginManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Playfab\\Login\\LoginManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T07:49:41.485Z"
             }
           ]
         }

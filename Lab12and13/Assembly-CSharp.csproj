@@ -61,40 +61,91 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Weather\WeatherController.cs" />
-    <Compile Include="Assets\Scripts\Playfab\Login\PlayfabManager.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\TopOn\GATopOnIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_UWPWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Enums.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_iOSWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\GameAnalyticsILRD.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_AndroidWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\State\GAState.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTClient.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Resource.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Business.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendBusinessEvent.cs" />
     <Compile Include="Assets\Scripts\Http request\Billboard.cs" />
-    <Compile Include="Assets\Scripts\Playfab\Login\DeviceLogin.cs" />
-    <Compile Include="Assets\Scripts\Playfab\Login\LoginManager.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_TizenWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_tvOSWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_WebGLWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendResourceEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GAValidator.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\IGameAnalyticsATTListener.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\IsRemoteConfigsReady.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Ads.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetABTestingVariantId.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SetCustomDimension.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Setup\Settings.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTObjCBridge.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendProgressionEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\AdMob\GAAdMobIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Error.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetRemoteConfigsValueAsString.cs" />
     <Compile Include="Assets\Scripts\Weather\WeatherManager.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendDesignEvent.cs" />
     <Compile Include="Assets\Scripts\Weather\CityDropdownHandler.cs" />
-    <Compile Include="Assets\Scripts\Playfab\Login\ILogin.cs" />
-    <Compile Include="Assets\Scripts\Playfab\Login\EmailLogin.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Debug.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\GameAnalytics.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Design.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Progression.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\Mopub\GAMopubIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetABTestingId.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_Wrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_SpecialEvents.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Utilities\GA_MiniJson.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendErrorEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\Aequus\GAAequusIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_MonoWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendAdEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\IronSource\GAIronSourceIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\Fyber\GAFyberIntegration.cs" />
     <Compile Include="Assets\Scripts\Weather\WeatherData.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\HyperBid\GAHyperBidIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Setup.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GAInitialize.cs" />
     <Compile Include="Assets\Scripts\Http request\ImageLoader.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\Max\GAMaxIntegration.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\GameAnalytics\Readme.txt" />
+    <None Include="Assets\GameAnalytics\Plugins\SamsungTV\Mono.Data.Sqlite.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\GameAnalytics.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\WSA\ARM\GameAnalytics.UWP.dll" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\WSA\x86\GameAnalytics.UWP.dll" />
     <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\Windows\x86\sqlite3.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\Windows\x64\sqlite3.dll" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\GameAnalytics\Plugins\WSA\x64\GameAnalytics.UWP.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\SamsungTV\GameAnalytics.SamsungTV.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -964,10 +1015,6 @@
       <Project>{DEABF85A-BE63-E27F-4207-4A82F0206F85}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PlayFab.csproj">
-      <Project>{7A732A5C-B099-103A-60EB-4BA150BCFB61}</Project>
-      <Name>PlayFab</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{E168085C-8CCE-6867-03E7-22DB2B357579}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
@@ -979,10 +1026,6 @@
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{91526558-BEE2-AE9F-07A0-CAB8FBAE6DB9}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{B14F73F7-C4E5-3EE1-BC8F-0A5DD8B7FF96}</Project>
-      <Name>PlayFabSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{BFF7171C-975C-1E1C-EF53-5F05CF0F23FF}</Project>

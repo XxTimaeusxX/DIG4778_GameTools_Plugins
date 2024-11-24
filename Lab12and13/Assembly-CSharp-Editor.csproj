@@ -60,7 +60,20 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameAnalytics\Editor\GA_AutoRun.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_UpdateWindow.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_SignUp.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_AssetPostprocessor.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\Playmaker\PlayMakerPresenceCheck.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\Playmaker\SendProgressionEventActionEditor.cs" />
     <Compile Include="Assets\Editor\CreateAssetBundles.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_PostprocessBuild.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_EditorUtilities.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\Playmaker\SendResourceEventActionEditor.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GameAnalyticsInspector.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_SettingsInspector.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_Menu.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_ContinuationManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Localization\differences.ja.txt" />
@@ -94,6 +107,7 @@
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Localization\configurehelper.zh-Hant.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Localization\binmergetool.es.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Localization\cm.es.txt" />
+    <None Include="Assets\GameAnalytics\Editor\Android\Dependencies.xml" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Localization\basecommands.zh-Hans.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Localization\images.es.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Localization\guihelp.zh-Hans.txt" />
@@ -1108,10 +1122,6 @@
       <Project>{DEABF85A-BE63-E27F-4207-4A82F0206F85}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="PlayFab.csproj">
-      <Project>{7A732A5C-B099-103A-60EB-4BA150BCFB61}</Project>
-      <Name>PlayFab</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{E168085C-8CCE-6867-03E7-22DB2B357579}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
@@ -1123,10 +1133,6 @@
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{91526558-BEE2-AE9F-07A0-CAB8FBAE6DB9}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{B14F73F7-C4E5-3EE1-BC8F-0A5DD8B7FF96}</Project>
-      <Name>PlayFabSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{BFF7171C-975C-1E1C-EF53-5F05CF0F23FF}</Project>
