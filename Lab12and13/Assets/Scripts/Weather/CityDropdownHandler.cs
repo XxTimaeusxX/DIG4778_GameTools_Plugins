@@ -73,18 +73,21 @@ public class CityDropdownHandler : MonoBehaviour
                                    $"Sunrise: {weatherData.Sunrise.ToString("hh:mm tt")}\n" +
                                    $"Sunset: {weatherData.Sunset.ToString("hh:mm tt")}\n" +
                                    $"Current Time: {currentTime}";
-            string eventDescription = $"Location: {weatherData.Location}\n" +
-                                     $"Temperature: {weatherData.Temperature}°F\n" +
-                                     $"Weather: {weatherData.WeatherDescription}\n" +
-                                     $"Wind Speed: {weatherData.WindSpeed} m/s\n" +
-                                     $"Sunrise: {weatherData.Sunrise.ToString("hh:mm tt")}\n" +
-                                     $"Sunset: {weatherData.Sunset.ToString("hh:mm tt")}\n" +
-                                     $"Current Time: {currentTime.ToString("hh:mm tt")}";
+           
 
             // Log the custom event to GameAnalytics
-           // GameAnalytics.WeatherEvent("WeatherAction", $"{eventDescription}");
-            GameAnalytics.NewDesignEvent("WeatherAction");
-            Debug.Log($"Weather Action Event Sent: {eventDescription}");
+            
+            GameAnalytics.NewDesignEvent("WeatherAction", new Dictionary<string, object>
+            {
+                { "Location", weatherData.Location },
+                { "Temperature", $"{weatherData.Temperature}°F"},
+                { "Weather_description", weatherData.WeatherDescription },
+                { "Wind_speed",$"{weatherData.WindSpeed} m/s" },
+                { "sunrise", weatherData.Sunrise.ToString("hh:mm tt") },
+                { "sunset", weatherData.Sunset.ToString("hh:mm tt") },
+                { "Location_Time", currentTime.ToString("hh:mm tt") }
+            });
+       
         }
         else
         {

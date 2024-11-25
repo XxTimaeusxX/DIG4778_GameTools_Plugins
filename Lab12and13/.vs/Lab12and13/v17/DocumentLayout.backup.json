@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\assets\\gameanalytics\\plugins\\scripts\\gameanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\gameanalytics\\plugins\\scripts\\gameanalytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|c:\\users\\ov333\\onedrive\\documents\\unityprojects\\version_2022.3.37f1\\lab12and13\\assets\\scripts\\weather\\citydropdownhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weather\\citydropdownhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|c:\\users\\ov333\\onedrive\\documents\\unityprojects\\version_2022.3.37f1\\lab12and13\\assets\\scripts\\weather\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D164AF2-CC74-C099-A57C-0D81BC0374AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weather\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameAnalytics.cs",
-              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\GameAnalytics\\Plugins\\Scripts\\GameAnalytics.cs",
-              "RelativeDocumentMoniker": "Assets\\GameAnalytics\\Plugins\\Scripts\\GameAnalytics.cs",
-              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\GameAnalytics\\Plugins\\Scripts\\GameAnalytics.cs",
-              "RelativeToolTip": "Assets\\GameAnalytics\\Plugins\\Scripts\\GameAnalytics.cs",
-              "ViewState": "AgIAAOYBAAAAAAAAAAAAAMYBAAAiAAAAAAAAAA==",
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Weather\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weather\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Weather\\WeatherController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weather\\WeatherController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:41:59.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CityDropdownHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Weather\\CityDropdownHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Weather\\CityDropdownHandler.cs",
-              "ToolTip": "C:\\Users\\ov333\\OneDrive\\Documents\\Unityprojects\\version_2022.3.37f1\\Lab12and13\\Assets\\Scripts\\Weather\\CityDropdownHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Weather\\CityDropdownHandler.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA1wFQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:52:04.835Z",
+              "WhenOpened": "2024-11-25T08:04:00.179Z",
               "EditorCaption": ""
             }
           ]

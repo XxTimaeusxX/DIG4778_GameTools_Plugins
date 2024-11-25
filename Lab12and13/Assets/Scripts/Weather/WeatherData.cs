@@ -3,6 +3,8 @@ using System;
 public class WeatherData
 {
     public string Location { get; set; }
+    public string City { get; set; }
+    public string Country { get; set; }
     public float Temperature { get; set; } 
     public float Humidity { get; set; }
     public string WeatherDescription { get; set; }

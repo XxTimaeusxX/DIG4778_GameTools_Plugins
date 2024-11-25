@@ -58,7 +58,10 @@ public class WeatherManager
 
             // Parse location
             XmlNode cityNode = xmlDoc.SelectSingleNode("current/city");
-            weatherData.Location = cityNode.Attributes["name"]?.Value;
+            weatherData.City = cityNode.Attributes["name"]?.Value;
+            XmlNode countryNode = cityNode.SelectSingleNode("country");
+            weatherData.Country = countryNode?.InnerText;
+            weatherData.Location = $"{weatherData.City}, {weatherData.Country}";
 
             // Parse temperature (in Kelvin, convert to Celsius or Fahrenheit)
             XmlNode tempNode = xmlDoc.SelectSingleNode("current/temperature");
